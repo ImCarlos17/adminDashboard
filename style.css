@@ -86,7 +86,7 @@ body {
 
 .header {
   display: grid;
-  border: 1px solid black;
+  background-color: #92400e;
   grid-area: header;
   grid-template-rows: 35% 1fr;
 }
@@ -95,14 +95,20 @@ body {
   display: flex;
   display: grid;
   grid-template-columns: 70% 1fr;
-  justify-content: space-between;
+}
+
+#search-header {
+  background-color: #e2e8f0;
+  height: 1.5rem;
+  border-radius: 1rem;
+  border: transparent;
 }
 
 .items-left {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.8rem;
 }
 
 .items-left input {
@@ -112,19 +118,56 @@ body {
 .items-right {
   display: grid;
   display: flex;
-  grid-column: 1fr 1fr 1fr;
-  gap: 1rem;
-  width: 30%;
+  grid-column: 30% 30% 40%;
+  gap: 1.2rem;
   align-items: center;
 }
+
+.items-right .img-profile {
+  min-width: 30px;
+  max-width: 30px;
+}
+
+.items-right .name-profile {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 .sub-header {
   display: grid;
   align-items: center;
   grid-template-columns: 60% 1fr;
 }
 
+.sub-header .sub-buttons button {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #1892d4;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 1rem;
+  border: transparent;
+}
+
 .data-user {
   display: flex;
+  align-items: center;
+  padding-left: 6rem;
+  font-weight: bold;
+  gap: 0.8rem;
+}
+
+.data-user p {
+  margin-bottom: 3px;
+}
+.data-user h3 {
+  margin-top: 0px;
+}
+
+.data-user .subheader-img {
+  width: 70px;
+  height: 70px;
 }
 
 .sub-buttons {
@@ -136,7 +179,6 @@ body {
   display: grid;
   grid-area: main;
   grid-template-columns: 1fr 25%;
-  border: 1px solid black;
 }
 
 .container-left {
