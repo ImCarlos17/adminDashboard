@@ -6,25 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ADMIN DASHBOARD</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <div class="dashboard" id="dashboard">
-        <h2>Dashboard</h2>
+        <div class="title-dashboard">
+          <img
+            src="/Icons/instagram.svg"
+            alt="icon-manjaro"
+            class="change-my-color"
+          />
 
-        <div class="first-table">
-          <div><p>Home</p></div>
-          <div><p>Profile</p></div>
-          <div><p>Messages</p></div>
-          <div><p>History</p></div>
-          <div><p>Task</p></div>
-          <div><p>Communities</p></div>
+          <h2>Dashboard</h2>
         </div>
+        <div class="container-list">
+          <ul class="first-list">
+            <li class="home">Home</li>
+            <li class="profile">Profile</li>
+            <li class="messages">Messages</li>
+            <li class="history">History</li>
+            <li class="task">Task</li>
+            <li class="communities">Communities</li>
+          </ul>
 
-        <div class="second-table">
-          <div><p>Setting</p></div>
-          <div><p>Support</p></div>
-          <div><p>Privacy</p></div>
+          <ul class="second-list">
+            <li class="setting">Setting</li>
+            <li class="support">Support</li>
+            <li class="privacy">Privacy</li>
+          </ul>
         </div>
       </div>
 
@@ -36,7 +49,9 @@
           </div>
 
           <div class="items-right">
-            <div class="notifications">ALERT</div>
+            <div class="notifications">
+              <img src="/Icons/bell-ring-outline.svg" alt="" />
+            </div>
             <div class="profile">IMG</div>
             <div class="name-profile">Carlos Berreto</div>
           </div>
@@ -61,11 +76,11 @@
 
       <div class="main" id="main">
         <div class="-container-left">
-          <h2>container left</h2>
+          <h2>Your Projects</h2>
         </div>
 
         <div class="container-right">
-          <h2>container right</h2>
+          <h2>Announcements</h2>
         </div>
       </div>
     </div>
