@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+.container {
+  display: grid;
+  min-height: 100vh;
+  box-sizing: border-box;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 25% 1fr;
+  grid-template-areas:
+    "dashboard header "
+    "dashboard main ";
+}
+
+.dashboard {
+  display: grid;
+  grid-area: dashboard;
+  grid-template-rows: 10% 35% 1fr;
+  text-align: center;
+  background-color: #1892d4;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.header {
+  display: grid;
+
+  border: 1px solid black;
+  grid-area: header;
+  grid-template-rows: 35% 1fr;
+}
+
+.first-header {
+  display: flex;
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  justify-content: space-between;
+}
+
+.items-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.items-left input {
+  width: 70%;
+}
+
+.items-right {
+  display: grid;
+  display: flex;
+  grid-column: 1fr 1fr 1fr;
+  gap: 1rem;
+  width: 30%;
+  align-items: center;
+}
+.sub-header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 60% 1fr;
+}
+
+.data-user {
+  display: flex;
+}
+
+.sub-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.main {
+  display: grid;
+  grid-area: main;
+  grid-template-columns: 1fr 25%;
+  border: 1px solid black;
+}
+
+.container-left {
+  border: 1px solid black;
+}
+
+.container-right {
+  border: 1px solid black;
+}
