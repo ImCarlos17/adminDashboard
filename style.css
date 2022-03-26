@@ -45,39 +45,39 @@ body {
 }
 
 .first-list .home {
-  list-style-image: url(/Icons/home-variant.svg);
+  list-style-image: url(Icons/home-variant.svg);
 }
 
 .first-list .profile {
-  list-style-image: url(/Icons/account.svg);
+  list-style-image: url(Icons/account.svg);
 }
 
 .first-list .messages {
-  list-style-image: url(/Icons/message-reply-outline.svg);
+  list-style-image: url(Icons/message-reply-outline.svg);
 }
 
 .first-list .history {
-  list-style-image: url(/Icons/clock-time-three-outline.svg);
+  list-style-image: url(Icons/clock-time-three-outline.svg);
 }
 
 .first-list .task {
-  list-style-image: url(/Icons/note-multiple-outline.svg);
+  list-style-image: url(Icons/note-multiple-outline.svg);
 }
 
 .first-list .communities {
-  list-style-image: url(/Icons/account-group-outline.svg);
+  list-style-image: url(Icons/account-group-outline.svg);
 }
 
 .second-list .setting {
-  list-style-image: url(/Icons/cog-outline.svg);
+  list-style-image: url(Icons/cog-outline.svg);
 }
 
 .second-list .support {
-  list-style-image: url(/Icons/face-agent.svg);
+  list-style-image: url(Icons/face-agent.svg);
 }
 
 .second-list .privacy {
-  list-style-image: url(/Icons/shield-check-outline.svg);
+  list-style-image: url(Icons/shield-check-outline.svg);
 }
 
 .title-dashboard img {
