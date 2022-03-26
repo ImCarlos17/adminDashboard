@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   grid-template-columns: 20% 1fr;
-  grid-template-rows: 25% 1fr;
+  grid-template-rows: 18% 1fr;
   grid-template-areas:
     "dashboard header "
     "dashboard main ";
@@ -17,7 +17,7 @@ body {
   display: grid;
   grid-area: dashboard;
   grid-template-rows: 10% 35% 1fr;
-  background-color: #9333ea;
+  background-color: #1892d4;
   color: #ffffff;
   font-size: 1.2rem;
   padding: 1rem;
@@ -86,7 +86,7 @@ body {
 
 .header {
   display: grid;
-  background-color: #92400e;
+  background-color: #ffffff;
   grid-area: header;
   grid-template-rows: 35% 1fr;
 }
@@ -178,16 +178,99 @@ body {
 .main {
   display: grid;
   grid-area: main;
-  grid-template-columns: 1fr 25%;
+  grid-template-columns: 1fr 30%;
+  background-color: #e2e8f0;
 }
 
-.container-left {
-  border: 1px solid black;
+.main h4 {
+  margin: 0;
+}
+
+.main p {
+  margin: 0;
+  color: #636363;
+}
+
+.main .container-left {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 6% 1fr 1fr 1fr 5%;
+  padding-left: 1rem;
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 1rem;
+  max-height: 85%;
+  max-width: 70%;
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border: transparent;
+}
+
+.card .card-body {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.card .icons-card {
+  text-align: end;
+}
+
+.card .icons-card img {
+  height: 1.4rem;
 }
 
 .container-right {
-  border: 1px solid black;
+  display: grid;
+
+  grid-template-rows: 8% 1fr 6% 1fr 5%;
+}
+.container-right .card-body {
+  font-size: 0.75rem;
+  padding-bottom: 0.8rem;
+}
+
+.container-right .first-card {
+  height: 16rem;
+}
+
+.container-right .first-card .body-border {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.container-right .second-card {
+  height: 14.1rem;
+}
+
+.container-right .users-trending {
+  display: flex;
+  font-size: 0.7rem;
+  gap: 1rem;
+}
+.container-right .second-card img {
+  height: 2.1rem;
+  width: 2.1rem;
+}
+
+.second-card .data-users h3 {
+  margin: 0;
+}
+.second-card .data-users p {
+  margin: 0;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 1px 4px 8px -2px rgba(0, 0, 0, 0.83);
+  box-shadow: 1px 4px 8px -2px rgba(0, 0, 0, 0.83);
+}
+
+.shadow-header {
+  position: relative;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.26);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.26);
 }
